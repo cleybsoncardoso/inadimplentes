@@ -1,0 +1,29 @@
+.navbar {
+  height: 50px;
+  background-color: #ced3ff;
+  width: 100%;
+}
+
+.inadimplentes-container {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+
+.inadimplentes-container .client-list {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.inadimplentes-container > div {
+  margin-top: 50px;
+}
+
+.client-table th p {
+  display: flex;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
